@@ -535,14 +535,14 @@ export default function Basket(props) {
                   </button>
                 </div>
                 <div className="col-sm-8 text-right">
-                  <button
+                  {/* <button
                     type="button"
                     title="Print KOT"
                     className="btn mr-1 btn-sm btn-outline-primary rounded-0"
                     onClick={() => PrintBill()}
                   >
                     <Icon.Print style={{fontSize:"16px"}}></Icon.Print> KOT
-                  </button>
+                  </button> */}
                   <button
                     type="button"
                     title="Checkout & Print Bill"
